@@ -1,0 +1,62 @@
+.button {
+    cursor: pointer;
+    min-height: 40px;
+    padding: 0 14px;
+    border: 1px solid transparent;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: all 0.5s;
+    white-space: nowrap;
+    border-radius: 3px;
+    @apply text-sm font-light;
+    line-height: 1;
+}
+
+.button--primary {
+    background-color: var(--brand-primary-button);
+    color: var(--gray-80);
+}
+
+.button--primary:hover {
+    color: var(--gray-80);
+    background: var(--brand-primary-dark);
+}
+
+.button--outline {
+    border-color: var(--brand-primary-button);
+    color: var(--brand-primary-button);
+}
+
+.button--outline:hover {
+    border-color: var(--brand-primary-button);
+    color: var(--brand-primary-button);
+}
+
+.button--text {
+    border-color: transparent;
+    color: var(--brand-primary-button);
+}
+
+.button--text:hover {
+    border-color: transparent;
+    color: var(--brand-primary-button);
+}
+
+.button--secondary {
+    background: var(--brand-secondary-main);
+    color: var(--gray-80);
+}
+
+.button--secondary:hover {
+    color: var(--gray-80);
+    background: var(--brand-secondary-dark);
+}
+.button--rounded {
+    @apply rounded-full p-3
+}
+.button:disabled {
+    opacity: 0.8;
+    cursor: not-allowed;
+}

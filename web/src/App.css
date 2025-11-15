@@ -1,0 +1,77 @@
+:root {
+    --brand-primary-dark: #000000;
+    --brand-primary-main: #050505;
+    --brand-primary-button: #000000;
+    --brand-primary-light: #1A1A1A;
+    --brand-primary-lighter: #1A1A1A;
+
+    --brand-secondary-dark: #b55c00;
+    --brand-secondary-main: #f57921;
+    --brand-secondary-light: #ffe9d9;
+    --brand-secondary-button: #483da9;
+    --brand-secondary-off: #847cd0;
+    --brand-secondary-pale: #edecf8;
+
+    --secondary-pale-blue: #0267ff;
+    --secondary-light-blue: #479bff;
+    --secondary-fade-blue: #4d9eff;
+    --secondary-faint-blue: #80baff;
+    --secondary-vfaint-blue: #80baff29;
+
+    --failed-10: #a10000;
+    --failed-20: #cc2e2e;
+    --failed-30: #d75c5c;
+    --failed-40: #fff3f3;
+    --failed-50: #ffe8e8;
+    --failed-60: #6a0c0f;
+
+    --success-10: #188f32;
+    --success-20: #00d67d;
+    --success-30: #29eb7f;
+    --success-40: #deffe5;
+    --success-50: #2dca73;
+    --success-60: #e6ffeb;
+    --success-70: #066f29;
+    --success-75: #004941;
+    --success-80: #006156;
+    --success-85: #4d9eff;
+    --success-90: #005249;
+    --success-95: #e8f7ff;
+
+    --text-10: #323643;
+    --text-20: #444854;
+    --text-30: #575a65;
+    --text-35: #909198;
+    --text-40: #1c1e2c;
+    --text-50: #30324b;
+    --text-60: #151723;
+    --text-70: #292828;
+    --text-80: #242631;
+    --text-90: #808894;
+    --text-95: #a5aab3;
+    --text-100: #1d1e2c;
+    --text-110: #3c3e4f;
+    --text-120: #f4f6f9;
+    --text-130: #a9b2bd;
+
+    --gray-10: #f4f5f7;
+    --gray-20: #f1f1f7;
+    --gray-30: #d3dce6;
+    --gray-40: #e0e6ed;
+    --gray-50: #e5e9f2;
+    --gray-60: #eff2f7;
+    --gray-70: #f9fafc;
+    --gray-80: #ffffff;
+    --gray-85: #c0ccda;
+
+    --white: #ffffff;
+    --black: #000000;
+
+    --gray-90: #e8e9f0;
+    --gray-95: #f8faff;
+
+    --background-light: #f7f6fb;
+    --background-pale: #fffefb;
+
+    --border-color: #dee2e6;
+}

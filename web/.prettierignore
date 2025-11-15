@@ -1,0 +1,30 @@
+.gitignore
+.prettierignore
+package-lock.json
+oneport.pub
+build
+coverage
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore built files
+build/
+dist/
+out/
+
+# Ignore coverage reports
+coverage/
+
+# Ignore compiled TypeScript files
+*.js
+
+# Ignore compiled TypeScript declaration files
+*.d.ts
+
+# Ignore configuration files
+.eslintrc
+.prettierrc
+babel.config.js
+webpack.config.js
+tsconfig.json
